@@ -1,27 +1,67 @@
-#container {
+.BckgroundLanding{
+  background: rgb(29,35,43);
+background: -moz-linear-gradient(32deg, rgba(29,35,43,1) 42%, rgba(53,66,84,1) 100%);
+background: -webkit-linear-gradient(32deg, rgba(29,35,43,1) 42%, rgba(53,66,84,1) 100%);
+background: linear-gradient(32deg, rgba(29,35,43,1) 42%, rgba(53,66,84,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d232b",endColorstr="#354254",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d232b",endColorstr="#354254",GradientType=1);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+      }
+
+      .NextButton{
+        width: 95%;
+        height: 40px;
+        background-color: #96acf8;
+        border-radius: 5px;
+        color:#1d232b ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+.DivIcon{
+  border-radius: 100%;
+  border: 4px solid #354254 ;
+  width: 200px;
+  height: 200px;
+  background: rgb(29,35,43);
+background: -moz-linear-gradient(32deg, rgba(29,35,43,1) 42%, rgba(53,66,84,1) 100%);
+background: -webkit-linear-gradient(32deg, rgba(29,35,43,1) 42%, rgba(53,66,84,1) 100%);
+background: linear-gradient(32deg, rgba(29,35,43,1) 42%, rgba(53,66,84,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d232b",endColorstr="#354254",GradientType=1);
+}
+ .VSpace-100{
+        width: 100%;
+        height: 100px;
+      }
+.DivContentMessage{
+  color: #919EB3;
   text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  span{
+    color: #D4DBE3;
+    font-size: 18px;
+    font-weight: bold;
+  }
 }
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
-}
+      .DivPoint{
+        color: #354254;
+      }
+      .VSpace-10{
+        width: 100%;
+        height: 20px;
+      }
+      .VSpace-50{
+        width: 100%;
+        height: 50px;
+      }
+      .VSpace-200{
+        width: 100%;
+        height: 200px;
+      }
+     
+      
