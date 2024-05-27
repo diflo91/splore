@@ -1,0 +1,7 @@
+{
+  "name": "splore",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
